@@ -1,0 +1,124 @@
+.login-background{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-size: 200% 100%;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    animation: movement 4s ease-in-out alternate infinite;
+    color: palevioletred;
+}
+
+@keyframes movement {
+    0%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.app-name-placement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.app-name{
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-family: 'Neuton';
+    font-weight: 400;
+    font-size: 66px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.app-motto{
+    color: white;
+    padding-top: 20px;
+}
+
+.app-motto-placement,.app-description-placement,.login-placement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.app-description{
+    color: white;
+    text-align: center;
+    width: 72%;
+    padding-top: 30px;
+    font-size:large;
+}
+
+.login-form{
+    width: 350px;
+    height: auto;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.login-form-fields{
+    padding: 0px 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+input{
+    width: 217.55px !important;
+    margin-right: 10px;
+    padding: 6px;
+    padding-right: 36px;
+    font-size: 16px;
+    border: 1.5px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Soft rounded corners */
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+input:focus{
+    border: none;
+    border: 2px solid purple;
+    outline: none;
+    box-shadow: 0px 0px 5px #8056b4;
+}
+
+.label{
+    width: 112.45px;
+}
+
+.additional-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-row p{
+    margin: 10px 0px;
+}
+
+.signup{
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.signup:hover{
+    color: rgb(186, 38, 87);
+    transform: scale(1.1);
+}
+
+

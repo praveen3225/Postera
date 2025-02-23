@@ -1,0 +1,55 @@
+.create-account-background{
+    width: 100%;
+    height: 100vh;
+    background-size: 200% 100%;
+    background-color: #e288f9;
+    background-image: linear-gradient(45deg, #de7070 0%,  #582df1 74%);
+    animation: movement 2.5s ease-in-out alternate infinite;
+    color: white;
+}
+
+.signup-form-position{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form{
+    width: 400px;
+    height: auto;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px white;
+    padding: 20px 0px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+input{
+    width: 217.55px !important;
+    margin-right: 10px;
+    padding: 6px;
+    padding-right: 36px;
+    font-size: 16px;
+    border: 1.5px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Soft rounded corners */
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+input:focus{
+    border: none;
+    border: 2px solid rgb(212, 99, 0);
+    outline: none;
+    box-shadow: 0px 0px 5px #01b233;
+}
+

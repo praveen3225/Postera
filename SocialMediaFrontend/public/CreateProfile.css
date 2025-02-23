@@ -1,0 +1,118 @@
+.create-profile-background{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #1488cc, #2b32b2);
+    background-size: 100% 200%;
+    animation: updown 2.5s ease-in-out alternate infinite;
+    color: white;
+}
+
+@keyframes updown {
+    0% { background-position-y: 0; }
+    100% { background-position-y: 100%; }
+}
+
+.create-profile-header
+{
+    padding: 30px 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.create-profile-sub-text
+{
+    display: flex;
+    justify-content: center;
+}
+
+.create-profile-sub-text2
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.create-profile-form-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-profile-form{
+    width: 1085.812px;
+    height: auto;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px white;
+    padding: 20px 0px;
+    font-size: 24px;
+    padding: 30px 50px;
+}
+
+.create-profile-form input{
+    width: 225px !important;
+    padding-right: 0px !important
+}
+
+.create-profile-form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.create-profile-form textarea{
+    border: 1.5px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+textarea:focus{
+    border: none;
+    border: 2px solid purple;
+    outline: none;
+    box-shadow: 0px 0px 5px #8056b4;
+}
+
+.create-profile-form .radio-input{
+    width: auto !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+/* .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-around;
+} */
+
+/* input{
+    margin-right: 10px;
+    padding: 6px;
+    padding-right: 36px;
+    font-size: 16px;
+    border: 1.5px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+input:focus{
+    border: none;
+    border: 2px solid rgb(212, 99, 0);
+    outline: none;
+    box-shadow: 0px 0px 5px #01b233;
+} */
